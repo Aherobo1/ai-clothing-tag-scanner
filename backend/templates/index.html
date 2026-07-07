@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Scan Demo</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2em; background: #f8fafc; color: #222; }
+        h2 { color: #2a72d4; }
+        form { background: #fff; padding: 1.5em 2em; border-radius: 10px; box-shadow: 0 2px 12px #0002; max-width: 600px; margin-bottom: 2em; }
+        input[type="text"] { width: 100%; padding: 0.7em; border: 1px solid #bbb; border-radius: 6px; font-size: 1.1em; transition: border 0.2s; }
+        input[type="text"]:focus { border: 1.5px solid #2a72d4; outline: none; }
+        button { background: linear-gradient(90deg, #2a72d4 60%, #1a4e96 100%); color: #fff; border: none; padding: 0.8em 2em; border-radius: 6px; font-size: 1.1em; cursor: pointer; margin-top: 1em; box-shadow: 0 2px 8px #0001; transition: background 0.2s; }
+        button:hover { background: linear-gradient(90deg, #1a4e96 60%, #2a72d4 100%); }
+        label { display: block; margin: 1em 0 0.5em; }
+        #result { background: #fff; padding: 2em 2.5em; border-radius: 12px; box-shadow: 0 2px 12px #0002; max-width: 900px; margin-top: 2em; }
+        .images-grid { display: flex; flex-wrap: wrap; gap: 1em; margin: 1.5em 0; }
+        .images-grid a { display: block; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 6px #0002; transition: box-shadow 0.2s, transform 0.2s; background: #f4f4f4; }
+        .images-grid a:hover { box-shadow: 0 6px 24px #0003; transform: scale(1.04); }
+        .images-grid img { display: block; width: 120px; height: 120px; object-fit: cover; background: #eee; transition: filter 0.2s; }
+        .meta { font-size: 1.05em; color: #444; margin-bottom: 0.7em; }
+        .json-toggle { color: #2a72d4; cursor: pointer; text-decoration: underline; font-size: 1em; margin-bottom: 1em; display: inline-block; }
+        pre { background: #f4f4f4; padding: 1em; border-radius: 7px; overflow-x: auto; }
+        .query-preview { display: flex; align-items: center; gap: 1.5em; margin-bottom: 1.5em; }
+        .query-preview img { width: 140px; height: 140px; object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px #0002; border: 2px solid #e0e7ef; background: #f4f4f4; }
+        .query-preview .url { font-size: 0.98em; color: #2a72d4; word-break: break-all; }
+        @media (max-width: 700px) {
+            #result, form { padding: 1em; }
+            .query-preview img { width: 90px; height: 90px; }
+            .images-grid img { width: 80px; height: 80px; }
+        }
+    </style>
+</head>
+<body>
+    <h2>Tag Scan Demo</h2>
+    <form id="scanForm">
+        <label>Image URL:<br>
+            <input type="text" id="imageUrl" size="60" required placeholder="Paste a tag image URL here">
+        </label>
+        <label>
+            <input type="checkbox" id="useLlm"> Use LLM Similarity
+        </label>
+        <button type="submit">Scan Tag</button>
+    </form>
+    <h3>Result:</h3>
+    <div id="result">
+        <div class="query-preview" id="queryPreview" style="display:none;">
+            <img id="queryImg" src="" alt="Query tag preview">
+            <div class="url" id="queryUrl"></div>
+        </div>
+        <div id="meta"></div>
+        <div class="images-grid" id="imagesGrid"></div>
+        <span class="json-toggle" id="toggleJson" style="display:none;">Show raw JSON</span>
+        <pre id="jsonResult" style="display:none;"></pre>
+    </div>
+    <script>
+        function renderResults(data, imageUrl) {
+            const res = data.results && data.results[0] ? data.results[0] : null;
+            const metaDiv = document.getElementById('meta');
+            const imagesGrid = document.getElementById('imagesGrid');
+            const jsonResult = document.getElementById('jsonResult');
+            const toggleJson = document.getElementById('toggleJson');
+            const queryPreview = document.getElementById('queryPreview');
+            const queryImg = document.getElementById('queryImg');
+            const queryUrl = document.getElementById('queryUrl');
+            metaDiv.innerHTML = '';
+            imagesGrid.innerHTML = '';
+            jsonResult.style.display = 'none';
+            toggleJson.style.display = 'none';
+            // Show query image preview
+            if (imageUrl) {
+                queryPreview.style.display = 'flex';
+                queryImg.src = imageUrl;
+                queryUrl.innerHTML = `<b>Query Image:</b><br><a href="${imageUrl}" target="_blank">${imageUrl}</a>`;
+            } else {
+                queryPreview.style.display = 'none';
+            }
+            if (!res) {
+                metaDiv.textContent = 'No results.';
+                return;
+            }
+            metaDiv.innerHTML = `<b>Tag:</b> ${res.tag || ''}`;
+            if (res.years && res.years.length > 0) {
+                metaDiv.innerHTML += ` &nbsp; <b>Years:</b> ${res.years.filter(Boolean).join(', ')}`;
+            }
+            if (res.appraisal_value && res.appraisal_value.length > 0) {
+                metaDiv.innerHTML += `<br><b>Appraisal Values:</b> ${res.appraisal_value.filter(Boolean).join(', ')}`;
+            }
+            if (res.status && res.status.length > 0) {
+                metaDiv.innerHTML += `<br><b>Status:</b> ${res.status.filter(Boolean).join(', ')}`;
+            }
+            // Show images as thumbnails
+            if (res.similar_images && res.similar_images.length > 0) {
+                res.similar_images.forEach(url => {
+                    if (url) {
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.target = '_blank';
+                        const img = document.createElement('img');
+                        img.src = url;
+                        img.alt = 'Tag image';
+                        a.appendChild(img);
+                        imagesGrid.appendChild(a);
+                    }
+                });
+            } else {
+                imagesGrid.innerHTML = '<i>No similar images found.</i>';
+            }
+            // Show JSON toggle
+            toggleJson.style.display = 'inline-block';
+            jsonResult.textContent = JSON.stringify(data, null, 2);
+            toggleJson.onclick = function() {
+                jsonResult.style.display = jsonResult.style.display === 'none' ? 'block' : 'none';
+                toggleJson.textContent = jsonResult.style.display === 'none' ? 'Show raw JSON' : 'Hide raw JSON';
+            };
+        }
+        document.getElementById('scanForm').onsubmit = async function(e) {
+            e.preventDefault();
+            const imageUrl = document.getElementById('imageUrl').value;
+            const useLlm = document.getElementById('useLlm').checked;
+            document.getElementById('meta').textContent = '';
+            document.getElementById('imagesGrid').innerHTML = '';
+            document.getElementById('jsonResult').style.display = 'none';
+            document.getElementById('toggleJson').style.display = 'none';
+            document.getElementById('meta').textContent = 'Loading...';
+            try {
+                const res = await fetch('/get_tag', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ image_url: imageUrl, use_llm: useLlm })
+                });
+                const data = await res.json();
+                renderResults(data, imageUrl);
+            } catch (err) {
+                document.getElementById('meta').textContent = 'Error: ' + err;
+            }
+        };
+    </script>
+</body>
+</html> 

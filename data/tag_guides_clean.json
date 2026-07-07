@@ -1,0 +1,854 @@
+{
+    "success": true,
+    "tag_guides": [
+        {
+            "id": 1,
+            "name": "Alstyle Apparel & Activewear T-Shirt Tags",
+            "year_start": "1995",
+            "year_end": "2006",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-09T16:55:26.000Z",
+            "updated_at": "2024-12-09T16:55:26.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-1.jpg==1995;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-2.jpg==1997;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-3.jpg==1998;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-4.jpg==1999;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-5.jpg==2000;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-6.jpg==2002;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-7.jpg==2006;;https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-8.jpg==-",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-1.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-2.jpg",
+                    "year": "1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-3.jpg",
+                    "year": "1998"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-4.jpg",
+                    "year": "1999"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-5.jpg",
+                    "year": "2000"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-6.jpg",
+                    "year": "2002"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-7.jpg",
+                    "year": "2006"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/alstyle/alstyle-8.jpg",
+                    "year": "-"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Anvil T-Shirt Tags",
+            "year_start": "1989",
+            "year_end": "2007",
+            "category": null,
+            "brand_id": 69,
+            "status": 1,
+            "created_at": "2024-12-09T13:13:02.000Z",
+            "updated_at": "2024-12-09T13:13:02.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-1.jpg==1989-1993;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-2.jpg==1991-1997;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-3.jpg==1992-1999;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-4.jpg==1993-1994;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-5.jpg==1994-1996;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-6.jpg==1994-1997;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-7.jpg==1995-1999;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-8.jpg==1996-2004;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-9.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-10.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-11.jpg==1998",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-1.jpg",
+                    "year": "1989-1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-2.jpg",
+                    "year": "1991-1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-3.jpg",
+                    "year": "1992-1999"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-4.jpg",
+                    "year": "1993-1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-5.jpg",
+                    "year": "1994-1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-6.jpg",
+                    "year": "1994-1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-7.jpg",
+                    "year": "1995-1999"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-8.jpg",
+                    "year": "1996-1998"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-9.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-10.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/anvil/anvil-11.jpg",
+                    "year": "1998"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ched and Anvil T-Shirt Tags",
+            "year_start": "1976",
+            "year_end": "1988",
+            "category": null,
+            "brand_id": 212,
+            "status": 1,
+            "created_at": "2024-12-10T13:21:49.000Z",
+            "updated_at": "2024-12-10T13:21:49.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-1.jpg==1976-1977;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-2.jpg==1976-1979;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-3.jpg==1979-1988;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-4.jpg==1984-1988;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-5.jpg==1976-1985;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-6.jpg==1979-1983;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-7.jpg==1985-1989;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-8.jpg==1986-1990;;https://s3.amazonaws.com/com.images.legiteem8/ched/ched-9.jpg==1988-1990",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-1.jpg",
+                    "year": "1976-1977"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-2.jpg",
+                    "year": "1976-1979"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-3.jpg",
+                    "year": "1979-1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-4.jpg",
+                    "year": "1976-1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-5.jpg",
+                    "year": "1979-1983"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-6.jpg",
+                    "year": "1984-1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-7.jpg",
+                    "year": "1985-1989"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-8.jpg",
+                    "year": "1986-1990"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/ched/ched-9.jpg",
+                    "year": "1988-1990"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Delta T-Shirt Tags",
+            "year_start": "1988",
+            "year_end": "2014",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:22:19.000Z",
+            "updated_at": "2024-12-10T13:22:19.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-1.jpg==1988;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-2.jpg==1988;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-3.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-4.jpg==1993;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-5.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-6.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-7.jpg==2001;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-8.jpg==2002;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-9.jpg==2002;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-10.jpg==2004;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-11.jpg==2004;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-12.jpg==2009;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-13.jpg==2009;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-14.jpg==2013;;https://s3.amazonaws.com/com.images.legiteem8/delta/delta-15.jpg==2013",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-1.jpg",
+                    "year": "1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-2.jpg",
+                    "year": "1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-3.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-4.jpg",
+                    "year": "1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-5.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-6.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-7.jpg",
+                    "year": "2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-8.jpg",
+                    "year": "2002"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-9.jpg",
+                    "year": "2004"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-10.jpg",
+                    "year": "2002"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-11.jpg",
+                    "year": "2002"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-12.jpg",
+                    "year": "2004"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-13.jpg",
+                    "year": "2004"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-14.jpg",
+                    "year": "-"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/delta/delta-15.jpg",
+                    "year": "2009"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Fruit of the Loom ",
+            "year_start": "1970",
+            "year_end": "1998",
+            "category": null,
+            "brand_id": 396,
+            "status": 1,
+            "created_at": "2024-12-10T13:22:52.000Z",
+            "updated_at": "2024-12-10T13:22:52.000Z",
+            "images_and_years": null,
+            "images": []
+        },
+        {
+            "id": 6,
+            "name": "Giant T-Shirt Tags",
+            "year_start": "1991",
+            "year_end": "1996",
+            "category": null,
+            "brand_id": 425,
+            "status": 1,
+            "created_at": "2024-12-10T13:23:37.000Z",
+            "updated_at": "2024-12-10T13:23:37.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-1.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-2.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-3.jpg==1993;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-4.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-5.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-6.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/giant/giant-7.jpg==1996",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-1.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-2.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-3.jpg",
+                    "year": "1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-4.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-5.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-6.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/giant/giant-7.jpg",
+                    "year": "1996"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Gildan T-Shirt Tags",
+            "year_start": "1995",
+            "year_end": "2002",
+            "category": null,
+            "brand_id": 425,
+            "status": 1,
+            "created_at": "2024-12-10T13:24:04.000Z",
+            "updated_at": "2024-12-10T13:24:04.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-1.jpg==1995;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-2.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-3.jpg==1997;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-4.jpg==1997;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-5.jpg==1998;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-6.jpg==1999;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-7.jpg==2000;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-8.jpg==2001;;https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-9.jpg==2002",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-1.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-2.jpg",
+                    "year": "1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-3.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-4.jpg",
+                    "year": "1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-5.jpg",
+                    "year": "1998"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-6.jpg",
+                    "year": "1999"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-7.jpg",
+                    "year": "2000"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-8.jpg",
+                    "year": "2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/gildan/gildan-9.jpg",
+                    "year": "2002"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Hanes T-Shirt Tags ",
+            "year_start": "1989",
+            "year_end": "1997",
+            "category": null,
+            "brand_id": 466,
+            "status": 1,
+            "created_at": "2024-12-10T13:24:34.000Z",
+            "updated_at": "2024-12-10T13:24:34.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-1.jpg==1989;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-2.jpg==1990;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-3.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-4.jpg==1992;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-5.jpg==1993;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-6.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-7.jpg==1995;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-8.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-9.jpg==1997",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-1.jpg",
+                    "year": "1989"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-2.jpg",
+                    "year": "1990"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-3.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-4.jpg",
+                    "year": "1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-5.jpg",
+                    "year": "1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-6.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-7.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-8.jpg",
+                    "year": "1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/hanes/hanes-9.jpg",
+                    "year": "1996"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Jerzees T-Shirt Tags",
+            "year_start": "1985",
+            "year_end": "1998",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:25:12.000Z",
+            "updated_at": "2024-12-10T13:25:12.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-1.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-2.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-3.jpg==1987;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-4.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-5.jpg==1992;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-6.jpg==1995;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-7.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-8.jpg==1997;;https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-9.jpg==1998",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-1.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-2.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-3.jpg",
+                    "year": "1987"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-4.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-5.jpg",
+                    "year": "1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-6.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-7.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-8.jpg",
+                    "year": "1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/jerzees/jerzees-9.jpg",
+                    "year": "1998"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Oneita T-Shirt Tags",
+            "year_start": "1984",
+            "year_end": "1989",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:25:37.000Z",
+            "updated_at": "2024-12-10T13:25:37.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-1.jpg==1984;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-2.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-3.jpg==1987;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-4.jpg==1988;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-5.jpg==1993;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-6.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-7.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-8.jpg==1999;;https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-9.jpg==1999",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-1.jpg",
+                    "year": "1984"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-2.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-3.jpg",
+                    "year": "1987"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-4.jpg",
+                    "year": "1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-5.jpg",
+                    "year": "1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-6.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-7.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-8.jpg",
+                    "year": "1999"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/oneita/oneita-9.jpg",
+                    "year": "1999"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Screen Stars T-Shirt Tags",
+            "year_start": "1980",
+            "year_end": "1994",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:26:14.000Z",
+            "updated_at": "2024-12-10T13:26:14.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-1.jpg==1980;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-2.jpg==1980;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-3.jpg==1981;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-4.jpg==1982;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-5.jpg==1987;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-6.jpg==1987;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-7.jpg==1990;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-8.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/stars/stars-9.jpg==1994",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-1.jpg",
+                    "year": "1980"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-2.jpg",
+                    "year": "1981"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-3.jpg",
+                    "year": "1990"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-4.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-5.jpg",
+                    "year": "1982"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-6.jpg",
+                    "year": "1987"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-7.jpg",
+                    "year": "1987"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-8.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stars/stars-9.jpg",
+                    "year": "1980"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Signal T-Shirt Tags",
+            "year_start": "1977",
+            "year_end": "1994",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:27:40.000Z",
+            "updated_at": "2024-12-10T13:27:40.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-1.jpg==1977;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-2.jpg==1979;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-3.jpg==1980;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-4.jpg==1984;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-5.jpg==1991;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-6.jpg==1992;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-7.jpg==1992;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-8.jpg==1994;;https://s3.amazonaws.com/com.images.legiteem8/signal/signal-9.jpg==1994",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-1.jpg",
+                    "year": "1977"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-2.jpg",
+                    "year": "1980"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-3.jpg",
+                    "year": "1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-4.jpg",
+                    "year": "1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-5.jpg",
+                    "year": "1984"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-6.jpg",
+                    "year": "1991"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-7.jpg",
+                    "year": "1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-8.jpg",
+                    "year": "1979"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/signal/signal-9.jpg",
+                    "year": "1994"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Sportswear T-Shirt Tags",
+            "year_start": "1968",
+            "year_end": "1990",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:28:06.000Z",
+            "updated_at": "2024-12-10T13:28:06.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-1.jpg==1968;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-2.jpg==1974;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-3.jpg==1975;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-4.jpg==1978;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-5.jpg==1978;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-6.jpg==1980;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-7.jpg==1980;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-8.jpg==1981;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-9.jpg==1981;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-10.jpg==1982;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-11.jpg==1983;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-12.jpg==1984;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-13.jpg==1984;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-14.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-15.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-16.jpg==1990",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-1.jpg",
+                    "year": "1981"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-2.jpg",
+                    "year": "1982"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-3.jpg",
+                    "year": "1983"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-4.jpg",
+                    "year": "1984"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-5.jpg",
+                    "year": "1984"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-6.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-7.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-8.jpg",
+                    "year": "1990"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-9.jpg",
+                    "year": "1981"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-10.jpg",
+                    "year": "1968"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-11.jpg",
+                    "year": "1974"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-12.jpg",
+                    "year": "1975"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-13.jpg",
+                    "year": "1978"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-14.jpg",
+                    "year": "1978"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-15.jpg",
+                    "year": "1980"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/sportswear/sportswear-16.jpg",
+                    "year": "1980"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Stedman & Hi Cru T-Shirt Tags ",
+            "year_start": "1971",
+            "year_end": "1997",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:28:36.000Z",
+            "updated_at": "2024-12-10T13:28:36.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-1.jpg==1971;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-2.jpg==1974;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-3.jpg==1977;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-4.jpg==1978;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-5.jpg==1981;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-6.jpg==1985;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-7.jpg==1988;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-8.jpg==1989;;https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-9.jpg==1990",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-1.jpg",
+                    "year": "1971"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-2.jpg",
+                    "year": "1974"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-3.jpg",
+                    "year": "1977"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-4.jpg",
+                    "year": "1978"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-5.jpg",
+                    "year": "1981"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-6.jpg",
+                    "year": "1985"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-7.jpg",
+                    "year": "1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-8.jpg",
+                    "year": "1989"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/stedman/stedman-9.jpg",
+                    "year": "1997"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Tennessee River T-Shirt Tags",
+            "year_start": "1984",
+            "year_end": "2010",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:29:19.000Z",
+            "updated_at": "2024-12-10T13:29:19.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-1.jpg==1984-1992;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-2.jpg==1988-1993;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-3.jpg==1988-1994;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-4.jpg==1993-1998;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-5.jpg==1993-2000;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-6.jpg==1997-2001;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-7.jpg==1999-2001;;https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-8.jpg==2000-2010",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-1.jpg",
+                    "year": "1984-1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-2.jpg",
+                    "year": "1988-1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-3.jpg",
+                    "year": "1988-1994"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-4.jpg",
+                    "year": "1993-2000"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-5.jpg",
+                    "year": "1993-1998"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-6.jpg",
+                    "year": "1997-2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-7.jpg",
+                    "year": "1999-2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/tennessee/tennessee-8.jpg",
+                    "year": "2000-2010"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Wild Oats T-Shirt Tags ",
+            "year_start": "1984",
+            "year_end": "1997",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:29:51.000Z",
+            "updated_at": "2024-12-10T13:29:51.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-1.jpg==1984;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-2.jpg==1990;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-3.jpg==1992;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-4.jpg==1993;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-5.jpg==1995;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-6.jpg==1996;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-7.jpg==1997;;https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-8.jpg==1997",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-1.jpg",
+                    "year": "1984"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-2.jpg",
+                    "year": "1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-3.jpg",
+                    "year": "1990"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-4.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-5.jpg",
+                    "year": "1995"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-6.jpg",
+                    "year": "1993"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-7.jpg",
+                    "year": "1996"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/wild_oats/wild_oats-8.jpg",
+                    "year": "1997"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Winterland T-Shirt Tags",
+            "year_start": "1982",
+            "year_end": "2002",
+            "category": null,
+            "brand_id": null,
+            "status": 1,
+            "created_at": "2024-12-10T13:30:20.000Z",
+            "updated_at": "2024-12-10T13:30:20.000Z",
+            "images_and_years": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-1.jpg==1982-1988;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-2.jpg==1987-1992;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-3.jpg==1992-1997;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-4.jpg==1994-1997;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-5.jpg==1997-2001;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-6.jpg==1998-2001;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-7.jpg==2001-2008;;https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-8.jpg==2005-2008",
+            "images": [
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-1.jpg",
+                    "year": "1982-1988"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-2.jpg",
+                    "year": "1987-1992"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-3.jpg",
+                    "year": "1992-1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-4.jpg",
+                    "year": "1994-1997"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-5.jpg",
+                    "year": "1997-2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-6.jpg",
+                    "year": "1998-2001"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-7.jpg",
+                    "year": "2001-2008"
+                },
+                {
+                    "image": "https://s3.amazonaws.com/com.images.legiteem8/winterland/winterland-8.jpg",
+                    "year": "2001-2008"
+                }
+            ]
+        }
+    ]
+}
